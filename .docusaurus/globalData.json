@@ -1,0 +1,156 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "2.8.1",
+          "isLast": false,
+          "path": "/docs/2.8.1",
+          "mainDocId": "version-2.8.1/intro",
+          "docs": [
+            {
+              "id": "version-2.8.1/intro",
+              "path": "/docs/2.8.1/version-2.8.1/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-basics/congratulations",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-basics/create-a-blog-post",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-basics/create-a-document",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-basics/create-a-page",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-basics/deploy-your-site",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-basics/markdown-features",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-extras/manage-docs-versions",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-2.8.1/tutorial-extras/translate-your-site",
+              "path": "/docs/2.8.1/version-2.8.1/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/2.8.1/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/2.8.1/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/2.8.1/version-2.8.1/intro",
+                "label": "version-2.8.1/intro"
+              }
+            }
+          }
+        },
+        {
+          "name": "2.8.1",
+          "label": "2.8.1",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standard-modules/console/clear",
+              "path": "/docs/standard-modules/console/clear",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standard-modules/console/error",
+              "path": "/docs/standard-modules/console/error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standard-modules/console/log",
+              "path": "/docs/standard-modules/console/log",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standard-modules/console/table",
+              "path": "/docs/standard-modules/console/table",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "standard-modules/console/warn",
+              "path": "/docs/standard-modules/console/warn",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/standard-modules",
+              "path": "/docs/category/standard-modules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/console-module",
+              "path": "/docs/category/console-module",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "version-2.8.1/intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

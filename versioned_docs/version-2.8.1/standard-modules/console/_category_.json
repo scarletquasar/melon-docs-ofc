@@ -1,0 +1,8 @@
+{
+  "label": "Console Module",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Tools to deal with console (screen and user I/O) and miscellaneous"
+  }
+}

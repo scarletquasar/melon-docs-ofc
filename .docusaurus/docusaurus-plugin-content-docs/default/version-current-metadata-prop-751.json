@@ -1,0 +1,150 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "2.8.1",
+  "banner": "unreleased",
+  "badge": true,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": false,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "version-2.8.1",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Melon Runtime",
+            "href": "/docs/2.8.1/version-2.8.1/intro",
+            "docId": "version-2.8.1/intro"
+          },
+          {
+            "type": "category",
+            "label": "Tutorial - Basics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Create a Page",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-basics/create-a-page",
+                "docId": "version-2.8.1/tutorial-basics/create-a-page"
+              },
+              {
+                "type": "link",
+                "label": "Create a Document",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-basics/create-a-document",
+                "docId": "version-2.8.1/tutorial-basics/create-a-document"
+              },
+              {
+                "type": "link",
+                "label": "Create a Blog Post",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-basics/create-a-blog-post",
+                "docId": "version-2.8.1/tutorial-basics/create-a-blog-post"
+              },
+              {
+                "type": "link",
+                "label": "Markdown Features",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-basics/markdown-features",
+                "docId": "version-2.8.1/tutorial-basics/markdown-features"
+              },
+              {
+                "type": "link",
+                "label": "Deploy your site",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-basics/deploy-your-site",
+                "docId": "version-2.8.1/tutorial-basics/deploy-your-site"
+              },
+              {
+                "type": "link",
+                "label": "Congratulations!",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-basics/congratulations",
+                "docId": "version-2.8.1/tutorial-basics/congratulations"
+              }
+            ],
+            "href": "/docs/2.8.1/category/tutorial---basics"
+          },
+          {
+            "type": "category",
+            "label": "Tutorial - Extras",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Manage Docs Versions",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-extras/manage-docs-versions",
+                "docId": "version-2.8.1/tutorial-extras/manage-docs-versions"
+              },
+              {
+                "type": "link",
+                "label": "Translate your site",
+                "href": "/docs/2.8.1/version-2.8.1/tutorial-extras/translate-your-site",
+                "docId": "version-2.8.1/tutorial-extras/translate-your-site"
+              }
+            ],
+            "href": "/docs/2.8.1/category/tutorial---extras"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "version-2.8.1/intro": {
+      "id": "version-2.8.1/intro",
+      "title": "Melon Runtime",
+      "description": "Welcome to the official Melon Runtime wiki, here you can find updated information about the runtime like installation, basic usage, project development and best pratices. New suggestions can be made in the issues channel of that repository. Every information in that wiki reflects the last viable implementation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-basics/congratulations": {
+      "id": "version-2.8.1/tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-basics/create-a-blog-post": {
+      "id": "version-2.8.1/tutorial-basics/create-a-blog-post",
+      "title": "Create a Blog Post",
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-basics/create-a-document": {
+      "id": "version-2.8.1/tutorial-basics/create-a-document",
+      "title": "Create a Document",
+      "description": "Documents are groups of pages connected through:",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-basics/create-a-page": {
+      "id": "version-2.8.1/tutorial-basics/create-a-page",
+      "title": "Create a Page",
+      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-basics/deploy-your-site": {
+      "id": "version-2.8.1/tutorial-basics/deploy-your-site",
+      "title": "Deploy your site",
+      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-basics/markdown-features": {
+      "id": "version-2.8.1/tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-extras/manage-docs-versions": {
+      "id": "version-2.8.1/tutorial-extras/manage-docs-versions",
+      "title": "Manage Docs Versions",
+      "description": "Docusaurus can manage multiple versions of your docs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "version-2.8.1/tutorial-extras/translate-your-site": {
+      "id": "version-2.8.1/tutorial-extras/translate-your-site",
+      "title": "Translate your site",
+      "description": "Let's translate docs/intro.md to French.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

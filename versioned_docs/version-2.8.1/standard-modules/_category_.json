@@ -1,0 +1,8 @@
+{
+  "label": "Standard Modules",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation reference about Melon standard modules"
+  }
+}
