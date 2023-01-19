@@ -13,6 +13,12 @@ Returns: `void`
 
 -
 
+### Example usage
+
+```ts
+console.clear();
+```
+
 ### Extra behaviors
 
 -

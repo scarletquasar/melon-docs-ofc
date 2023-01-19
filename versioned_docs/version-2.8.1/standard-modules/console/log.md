@@ -15,6 +15,12 @@ Returns: `void`
 | ---- | ---- | ----------- |
 | data | `...any` | The data to be displayed on the screen |
 
+### Example usage
+
+```ts
+console.log("a", "b", "c");
+```
+
 ### Extra behaviors
 
 | Condition | Consequence | Workaround |

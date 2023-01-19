@@ -15,6 +15,12 @@ Returns: `void`
 | ---- | ---- | ----------- |
 | tabularData | `any` | The data to be displayed on the screen (tabular data will be better displayed) |
 
+### Example usage
+
+```ts
+console.table([{a: 1}, {a: 2}, {a: 3}]);
+```
+
 ### Extra behaviors
 
 - **All `console.log` extra behaviors**
