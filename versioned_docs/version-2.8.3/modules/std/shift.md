@@ -17,7 +17,7 @@ Returns: `typeof(shift) | void`
 | ---- | ---- | ----------- |
 | condition | `boolean` | The condition to be analyzed in order to execute the action |
 | action | `Function` | Action meant to be executed if `condition` is `true` |
-| finishOnTrue | `boolean?` | The condition to finish the chain if the last `condition` is true|
+| finishOnTrue | `boolean?` | The condition to finish the chain if the last `condition` is true |
 
 ### Example usage
 
