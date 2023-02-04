@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Transaction-guided data collection focused on being safe for concurrent operations.
 
-Status: `stable` <br />
+Status: `unstable` <br />
 
 ### Constructor Parameters
 
@@ -22,7 +22,9 @@ const sharedBag = new SharedBag<number>(1, 2, 3, 4);
 
 ### Extra behaviors
 
--
+| Condition | Consequence | Workaround |
+| --------- | ----------- | ---------- |
+| Instability note | The current method set of `SharedBag<T>` doesn't meet all the requirements to be an useful collection since the data can't be removed or retrieved from it | See issue [#55](https://github.com/MelonRuntime/Melon/issues/255) |
 
 ## Instance Methods
 
