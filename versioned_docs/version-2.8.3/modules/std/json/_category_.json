@@ -1,0 +1,8 @@
+{
+  "label": "Standard Json (std.json) Module",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Standard set of Melon generic built-in tools to handle JSON objects"
+  }
+}
