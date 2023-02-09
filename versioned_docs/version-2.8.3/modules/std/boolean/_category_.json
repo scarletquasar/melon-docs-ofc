@@ -1,0 +1,8 @@
+{
+  "label": "Std Boolean Module",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Standard set of Melon generic built-in utilities to handle booleans"
+  }
+}

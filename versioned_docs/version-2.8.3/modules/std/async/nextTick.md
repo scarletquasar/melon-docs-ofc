@@ -42,5 +42,5 @@ contextCaller();
 
 | Condition | Consequence | Workaround |
 | --------- | ----------- | ---------- |
-| Calling the method in a sync context with non-null delay | The current thred will be blocked during the delay time | Consider using `await` or running this in an async context |
+| Calling the method in a sync context with non-null delay | The current thread will be blocked during the delay time | Consider using `await` or running this in an async context |
 | Calling asynchronous functions that are using `nextTick` method inside `Promise.all` or `Promise.any` | All the tasks will be blocked and the actions will not happen as excepted | See issue [#256](https://github.com/MelonRuntime/Melon/issues/256) |
