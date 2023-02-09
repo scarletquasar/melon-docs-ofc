@@ -2,30 +2,27 @@
 sidebar_position: 1
 ---
 
-# `Melon.std.json.trySerialize()`
+# `Melon.std.json.trySerialize(target)`
 
-Creates a callback chain that will execute one or more callbacks based in a condition that is related to the initial specified value.
-
+Tries to serialize an object.
 Status: `stable` <br />
-Returns: `typeof(shift) | void`
+Returns: `Result<TError, TValue>`
 
 ### Parameters
 
-*Valid calling `shift().option(...)`*
-
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| condition | `boolean` | The condition to be analyzed in order to execute the action |
-| action | `Function` | Action meant to be executed if `condition` is `true` |
-| finishOnTrue | `boolean?` | The condition to finish the chain if the last `condition` is true |
+| target | `any` | The target object to be serialized |
 
 ### Example usage
 
 ```ts
-shift()
-  .option(a === 1, () => console.log(1))
-  .option(a === 2, () => console.log(2))
-  .option(a === 3, () => console.log(2), true);
+const { trySerialize } = Melon.std.json;
+
+const result = tryDeserialize({a: 1, b: 2});
+result.join();
+
+result.match(_ => {}, console.log);
 ```
 
 ### Extra behaviors
