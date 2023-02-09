@@ -1,0 +1,8 @@
+{
+  "label": "Standard Async (std.async) Module",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Standard set of Melon generic built-in tools to ease the asynchronous programming"
+  }
+}
