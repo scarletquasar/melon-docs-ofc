@@ -1,0 +1,8 @@
+{
+  "label": "Environment Module",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Standard set of Melon generic built-in tools to handle environment related properties"
+  }
+}
