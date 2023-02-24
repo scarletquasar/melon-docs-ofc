@@ -1,0 +1,8 @@
+{
+  "label": "Std System Module",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Standard set of Melon generic built-in tools to manage system-related capabilities"
+  }
+}
