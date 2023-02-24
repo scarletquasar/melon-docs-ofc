@@ -64,7 +64,7 @@ enum Platform {
 </tr>
 </tbody></table>
 
-### Example usage
+## Example usage
 
 ```ts
 const { platform } = Melon.std.system.osInformation;
