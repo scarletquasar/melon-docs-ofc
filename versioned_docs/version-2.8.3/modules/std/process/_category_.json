@@ -1,0 +1,8 @@
+{
+  "label": "Std Process Module",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Standard set of Melon generic built-in tools to deal with processes"
+  }
+}
