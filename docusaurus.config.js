@@ -33,13 +33,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          lastVersion: '2.8.3',
-          versions: {
-            current: {
-              label: '2.8.3',
-              path: '2.8.3',
-            },
-          },
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
