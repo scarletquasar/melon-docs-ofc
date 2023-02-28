@@ -1,0 +1,8 @@
+{
+  "label": "Fs Module",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Raw tools to deal directly with files"
+  }
+}
