@@ -1,0 +1,8 @@
+{
+  "label": "Http Module",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Tools to deal with HTTP and general connectivity"
+  }
+}
