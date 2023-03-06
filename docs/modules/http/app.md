@@ -31,5 +31,5 @@ interface HttpApplicationOptions {
 
 ```ts
 const { http } = Melon;
-const helloWorld = () => http.result(200, "Hello World!");
+const app = http.app();
 ```
