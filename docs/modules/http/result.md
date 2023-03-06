@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # `Melon.http.result(statusCode, responseBody, responseHeaders?)`
 
-Creates a result object with a specfic status code, response body and headers to be used as result of a http application endpoint.
+Creates a result object with a specfic status code, response body and headers to be used as result of a `HttpApplication` endpoint.
 
 Status: `stable` <br />
 Returns: `HttpResult`
