@@ -30,8 +30,8 @@ Returns: `void`
 const { http } = Melon;
 const app = http.app();
 
-app.get("/", () => "Hello World!");
-app.get("/hewwo", () => http.result(500, "Oopsie woopsie!"));
+app.get("/success", () => "Success!");
+app.get("/error", () => http.result(500, "An error has occurred!"));
 ```
 
 ### `HttpApplication.getEndpoints()`
@@ -54,10 +54,50 @@ Returns: `HttpEndpoint[]`
 const { http } = Melon;
 const app = http.app();
 
-app.get("/", () => "Hello World!");
-app.get("/hewwo", () => http.result(500, "Oopsie woopsie!"));
+app.get("/success", () => "Success!");
+app.get("/error", () => http.result(500, "An error has occurred!"));
 
 console.log(app.getEndpoints());
 ```
 
+### `HttpApplication.listen(port, host?)`
 
+Creates a new listener to the current application, allowing the server to be accessed using different hosts and ports.
+
+Status: `stable` <br />
+Returns: `void`
+
+#### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| port | `number` | Target port to open the server in |
+| host? | `string` | Target host to open the server in (the default host will be used, if not provided) |
+
+#### Example usage
+
+```ts
+const { http } = Melon;
+const app = http.app();
+
+app.listen(4000, "myhost");
+```
+
+### `HttpApplication.run()`
+
+Executes the application immediately, hosting the server based on the configurations.
+
+Status: `stable` <br />
+Returns: `void`
+
+#### Example usage
+
+```ts
+const { http } = Melon;
+const app = http.app();
+
+app.get("/success", () => "Success!");
+app.get("/error", () => http.result(500, "An error has occurred!"));
+
+app.run();
+```
