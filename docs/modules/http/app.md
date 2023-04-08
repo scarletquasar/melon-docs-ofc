@@ -4,7 +4,6 @@ sidebar_position: 6
 
 # `Melon.http.app(options?)`
 
-HttpApplicationOptions: { name, host, port, enableHttps? }
 Creates a `HttpApplication` object, used to configure a web api that can be directly based on REST principles.
 
 Status: `stable` <br />
