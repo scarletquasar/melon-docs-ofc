@@ -76,7 +76,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'API Reference',
                 to: '/docs/intro',
               },
             ],
